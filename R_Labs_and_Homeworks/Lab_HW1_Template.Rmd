@@ -1,0 +1,89 @@
+---
+title: "[TITLE GOES HERE]"
+author: "Zach Binney"
+date: '2023-08-17'
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# [Q2 BIG HEADING HERE]
+
+## Loading Packages and Data
+
+First we need to load the `Batting` data, which comes as part of the `Lahman` package, as well as some other packages to help us with our analysis.
+
+```{r}
+#Load the tidyverse package and `Batting` data
+pacman::p_load(tidyverse, Lahman)
+
+data(Batting)
+```
+
+Next we want to...[TEXT TELLING READER WHAT THE BELOW CODE IS ABOUT TO DO GOES HERE. SEE THE "MIXING CODE AND TEXT" AND "INCLUDING PLOTS" SECTIONS OF THE RMD_EXAMPLE DOCUMENT WE REVIEWED IN CLASS FOR EXAMPLES.]
+
+```{r exploring_data}
+
+# [CODE TO ACCOMPLISH Q2 GOES HERE. ALSO INCLUDE CODE COMMENTS (THIS GREEN TEXT) AS YOU DEEM NECESSARY TO
+# EXPLAIN SPECIFICALLY WHAT CERTAIN PARTS OF YOUR CODE ARE DOING.]
+
+
+```
+
+[TEXT INTERPRETING THE OUTPUT FROM THE CODE ABOVE GOES HERE, IF NEEDED. SEE THE "MIXING CODE AND TEXT" AND "INCLUDING PLOTS" SECTIONS OF THE RMD_EXAMPLE DOCUMENT WE REVIEWED IN CLASS FOR EXAMPLES. HERE IS AN EXAMPLE OF A GOOD OVERALL DESCRIPTION OF A DIFFERENT DATASET CALLED `diamonds`: "The dataset contains data on the cost, weight in carats, color, and other characteristics of 53,940 round cut diamonds. It has a mix of numerical variables (such as `carat` and `price`) and ordered factors (such as `cut` quality and `color`)."]
+
+# [Q3 BIG HEADING HERE. SUGGESTION: Batting Data Analysis]
+
+## [Q4 SUB-HEADING]
+
+[TEXT TELLING READER WHAT THE BELOW CODE IS ABOUT TO DO GOES HERE.]
+
+```{r [CHUNK_TITLE_HERE]}
+
+# [CODE AND COMMENTS (IF NECESSARY) HERE]
+
+
+```
+
+[TEXT INTERPRETING THE OUTPUT FROM THE CODE ABOVE GOES HERE, IF NEEDED.]
+
+## [Q5 SUB-HEADING]
+
+[TEXT TELLING READER WHAT THE BELOW CODE IS ABOUT TO DO GOES HERE.]
+
+```{r [CHUNK_TITLE_HERE]}
+
+# [CODE AND COMMENTS (IF NECESSARY) HERE]
+
+
+```
+
+[TEXT INTERPRETING THE OUTPUT FROM THE CODE ABOVE GOES HERE, IF NEEDED.]
+
+## [Q6 SUB-HEADING]
+
+[TEXT TELLING READER WHAT THE BELOW CODE IS ABOUT TO DO GOES HERE.]
+
+```{r [CHUNK_TITLE_HERE]}
+
+# [CODE AND COMMENTS (IF NECESSARY) HERE]
+
+
+```
+
+[TEXT INTERPRETING THE OUTPUT FROM THE CODE ABOVE GOES HERE, IF NEEDED.]
+
+## [Q7 SUB-HEADING]
+
+[TEXT TELLING READER WHAT THE BELOW CODE IS ABOUT TO DO GOES HERE.]
+
+```{r [CHUNK_TITLE_HERE]}
+
+# [CODE AND COMMENTS (IF NECESSARY) HERE]
+
+
+```
+
+[TEXT INTERPRETING THE OUTPUT FROM THE CODE ABOVE GOES HERE, IF NEEDED.]
